@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3_AUX
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP ADP162AUJZ-3.3
+D 150 mA Ultralow Quiescent Current, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP160_161_162_163.pdf
+$ENDCMP
+#
+$CMP BSS84P
+D BSS84P P-Channel MOSFET
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP FDN359BN
+D FDN359BN N-Channel MOSFET
+$ENDCMP
+#
+$CMP GNDPWR
+K POWER, PWR
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP MX
+D Button
+K Switch
+$ENDCMP
+#
+$CMP Mini_USB
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP PB
+D Push Button
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+(module CHERRY_MX_LED (layer F.Cu) (tedit 57EFFEF3)
+  (fp_text reference L? (at 0 3.302) (layer B.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)) (justify mirror))
+  )
+  (fp_text value LED (at 0 6.985) (layer B.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_line (start -0.635 3.429) (end -1.143 3.429) (layer B.SilkS) (width 0.15))
+  (fp_line (start 0.127 3.429) (end 1.143 3.429) (layer B.SilkS) (width 0.15))
+  (fp_line (start 0.127 3.937) (end 0.127 2.921) (layer B.SilkS) (width 0.15))
+  (fp_line (start 0.127 2.921) (end -0.635 3.429) (layer B.SilkS) (width 0.15))
+  (fp_line (start -0.635 3.429) (end 0.127 3.937) (layer B.SilkS) (width 0.15))
+  (fp_line (start -0.635 3.937) (end -0.635 2.921) (layer B.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at -1.27 5.08) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole rect (at 1.27 5.08) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+)

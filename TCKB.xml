@@ -1,0 +1,3307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Cedric/__Projets_Kicad/TCKB/TCKB.sch</source>
+    <date>06/10/2016 22:57:40</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TCKB :Tiny Custom KeyBoard (STM32L)</title>
+        <company>/u/Ced67</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>TCKB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Matrix/" tstamps="/5642B7B5/">
+      <title_block>
+        <title>TCKB :Tiny Custom KeyBoard (STM32L)</title>
+        <company>/u/Ced67</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>Matrix.sch</source>
+        <comment number="1" value="Switch Matrix"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Led_Controller/" tstamps="/56632A89/">
+      <title_block>
+        <title>TCKB :Tiny Custom KeyBoard (STM32L)</title>
+        <company>/u/Ced67</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>Led_Controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/">
+      <title_block>
+        <title>TCKB :Tiny Custom KeyBoard (STM32L)</title>
+        <company>/u/Ced67</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>Led_Matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>DIP4P</value>
+      <footprint>TCKB:DIPSWITCH-8_SMD</footprint>
+      <libsource lib="TCKB" part="DIP4P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56425467</tstamp>
+    </comp>
+    <comp ref="STRIP2">
+      <value>STRIP_6P</value>
+      <footprint>TCKB:Strip6p</footprint>
+      <libsource lib="TCKB" part="STRIP_6P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564256C7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56426378</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56429B59</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Led_CapsLock</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56430F38</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32L053C8</value>
+      <footprint>TCKB:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <libsource lib="TCKB" part="STM32L053C8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56439253</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564701EB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>33PF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5647163C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>33PF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564716AD</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564716B3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADP162AUJZ-3.3</value>
+      <footprint>TCKB:SOT-23-5</footprint>
+      <libsource lib="TCKB" part="ADP162AUJZ-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56472B9E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56477E1E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56477E8E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56477E94</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56477F0C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Mini_USB</value>
+      <footprint>TCKB:USB_Mini-B</footprint>
+      <libsource lib="TCKB" part="Mini_USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564780D8</tstamp>
+    </comp>
+    <comp ref="STRIP1">
+      <value>STRIP_3P</value>
+      <footprint>TCKB:Strip3p</footprint>
+      <libsource lib="TCKB" part="STRIP_3P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5648BCC9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A01EE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A2941</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A316D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5656453E</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>k_ESC</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642BB64</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>k_TAB</value>
+      <footprint>TCKB:CHERRY_PCB_150H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642BE28</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>k_CAPSLOCK</value>
+      <footprint>TCKB:CHERRY_PCB_175H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642BE69</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>k_LSHIFT_ANSI</value>
+      <footprint>TCKB:CHERRY_PCB_225H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642C066</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>k_LCTRL</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642CA79</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>k_1</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642D51C</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>k_Q</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642D57A</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>k_A</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642D5BA</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>k_NU_BSLASH_ISO</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642D78C</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>k_LGUI</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5642D7EC</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>k_2</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564306AB</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>k_W</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564306B9</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>k_S</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564306C7</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>k_Z</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564306D5</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>k_LALT</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564306E3</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>k_3</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56432D26</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>k_E</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56432D34</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>k_D</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56432D42</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>k_X</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56432D50</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>k_4</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56433C3C</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>k_R</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56433C4A</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>k_F</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56433C58</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>k_C</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56433C66</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>k_5</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56434E5B</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>k_T</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56434E69</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>k_G</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56434E77</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>k_V</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56434E85</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>k_6</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56437426</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>k_Y</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56437434</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>k_H</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56437442</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>k_B</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56437450</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>k_SPACE</value>
+      <footprint>TCKB:CHERRY_PCB_625H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643745E</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>k_7</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B160</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>k_U</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B16E</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>k_J</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B17C</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>k_N</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B18A</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>k_8</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1A7</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>k_I</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1B5</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>k_K</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1C3</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>k_M</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1D1</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>k_9</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1EE</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>k_O</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B1FC</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>k_L</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B20A</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>k_COMMA</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B218</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>k_0</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B235</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>k_P</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B243</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>k_SEMICOLON</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B251</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>k_DOT</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B25F</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>k_RALT</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643B26D</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>k_MINUS</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E72E</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>k_LBRACKET</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E73C</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>k_QUOTE</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E74A</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>k_SLASH</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E758</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>k_RGUI</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E766</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>k_EQUAL</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E775</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>k__RBRACKET</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E783</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>k_BSLASH_ISO</value>
+      <footprint>TCKB:CHERRY_PCB_100H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E791</tstamp>
+    </comp>
+    <comp ref="SW66">
+      <value>k_RMENU</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7AD</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>k_BSPACE</value>
+      <footprint>TCKB:CHERRY_PCB_200H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7BC</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>k_BSLASH_ANSI</value>
+      <footprint>TCKB:CHERRY_PCB_150H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7CA</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>k_ENTER_ISO</value>
+      <footprint>TCKB:CHERRY_PCB_200H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7D8</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>k_RSHIFT</value>
+      <footprint>TCKB:CHERRY_PCB_275H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7E6</tstamp>
+    </comp>
+    <comp ref="SW67">
+      <value>k_RCTRL</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>5643E7F4</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>k_LSHIFT_ISO</value>
+      <footprint>TCKB:CHERRY_PCB_125H</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564603A8</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>k_ENTER_ANSI</value>
+      <footprint>TCKB:CHERRY_PCB_225H_SW</footprint>
+      <libsource lib="TCKB" part="MX"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56468E20</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>56492DFC</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB379</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB8BA</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB92C</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB932</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB9D8</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB9DE</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB9E4</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AB9EA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABAFC</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB02</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB08</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB0E</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB16</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB1C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB22</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABB28</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABCE6</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABD24</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABD2B</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABD31</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABD37</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564ABD3D</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC7E9</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC7F5</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC7FB</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC801</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC807</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC81A</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC827</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC833</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC840</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC84C</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564AC852</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0892</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0898</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B089E</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08A4</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08AA</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08B0</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08B6</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08BC</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08C2</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B08C8</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A72</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A7E</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A84</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A8A</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A90</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A96</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0A9C</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AA2</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AA8</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AAE</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AB4</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0ABA</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AC0</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AC6</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0ACC</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AD2</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AD8</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0ADE</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>TCKB:MiniMELF_2mm</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>564B0AE4</tstamp>
+    </comp>
+    <comp ref="ST1">
+      <value>Backspace_2U</value>
+      <footprint>TCKB:CHERRY_PCB_200H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3A08A</tstamp>
+    </comp>
+    <comp ref="ST2">
+      <value>ANSI_Return_2.25U</value>
+      <footprint>TCKB:CHERRY_PCB_225H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3A207</tstamp>
+    </comp>
+    <comp ref="ST3">
+      <value>ISO_Return_2U</value>
+      <footprint>TCKB:CHERRY_PCB_200H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3A37A</tstamp>
+    </comp>
+    <comp ref="ST4">
+      <value>Right_Shift_2.75U</value>
+      <footprint>TCKB:CHERRY_PCB_275H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3A4C1</tstamp>
+    </comp>
+    <comp ref="ST5">
+      <value>ANSI_Left_Shift_2.25U</value>
+      <footprint>TCKB:CHERRY_PCB_225H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3A63E</tstamp>
+    </comp>
+    <comp ref="ST6">
+      <value>Space_6.25U</value>
+      <footprint>TCKB:CHERRY_PCB_625H_STAB</footprint>
+      <libsource lib="TCKB" part="Cherry_Stab"/>
+      <sheetpath names="/Matrix/" tstamps="/5642B7B5/"/>
+      <tstamp>57F3C0C9</tstamp>
+    </comp>
+    <comp ref="STRIP4">
+      <value>STRIP_6P</value>
+      <footprint>TCKB:Strip6p</footprint>
+      <libsource lib="TCKB" part="STRIP_6P"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>56636046</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663606A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>STM32L053C8</value>
+      <footprint>TCKB:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <libsource lib="TCKB" part="STM32L053C8"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>566360B1</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>566360BE</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>566360C5</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>566360D3</tstamp>
+    </comp>
+    <comp ref="STRIP3">
+      <value>STRIP_3P</value>
+      <footprint>TCKB:Strip3p</footprint>
+      <libsource lib="TCKB" part="STRIP_3P"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>56636103</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663C58D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>33PF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663C59A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>33PF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663C5A1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>TCKB:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663C5A8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADP162AUJZ-3.3</value>
+      <footprint>TCKB:SOT-23-5</footprint>
+      <libsource lib="TCKB" part="ADP162AUJZ-3.3"/>
+      <sheetpath names="/Led_Controller/" tstamps="/56632A89/"/>
+      <tstamp>5663C5D1</tstamp>
+    </comp>
+    <comp ref="LED11">
+      <value>led_2</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56621F0E</tstamp>
+    </comp>
+    <comp ref="LED16">
+      <value>led_3</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56622442</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>led_ESC</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662248E</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>led_1</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56622494</tstamp>
+    </comp>
+    <comp ref="LED28">
+      <value>led_6</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56622612</tstamp>
+    </comp>
+    <comp ref="LED20">
+      <value>led_4</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662261E</tstamp>
+    </comp>
+    <comp ref="LED24">
+      <value>led_5</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56622624</tstamp>
+    </comp>
+    <comp ref="LED41">
+      <value>led_9</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623187</tstamp>
+    </comp>
+    <comp ref="LED45">
+      <value>led_0</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662318D</tstamp>
+    </comp>
+    <comp ref="LED33">
+      <value>led_7</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623193</tstamp>
+    </comp>
+    <comp ref="LED37">
+      <value>led_8</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623199</tstamp>
+    </comp>
+    <comp ref="LED59">
+      <value>led_BSPACE</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662319F</tstamp>
+    </comp>
+    <comp ref="LED50">
+      <value>led_MINUS</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566231A5</tstamp>
+    </comp>
+    <comp ref="LED55">
+      <value>led_EQUAL</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566231AB</tstamp>
+    </comp>
+    <comp ref="LED12">
+      <value>led_W</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623451</tstamp>
+    </comp>
+    <comp ref="LED17">
+      <value>led_E</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623457</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>led_TAB</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662345D</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>led_Q</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623463</tstamp>
+    </comp>
+    <comp ref="LED29">
+      <value>led_Y</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623469</tstamp>
+    </comp>
+    <comp ref="LED21">
+      <value>led_R</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662346F</tstamp>
+    </comp>
+    <comp ref="LED25">
+      <value>led_T</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623475</tstamp>
+    </comp>
+    <comp ref="LED42">
+      <value>led_O</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662347B</tstamp>
+    </comp>
+    <comp ref="LED46">
+      <value>led_P</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623481</tstamp>
+    </comp>
+    <comp ref="LED34">
+      <value>led_U</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623487</tstamp>
+    </comp>
+    <comp ref="LED38">
+      <value>led_I</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662348D</tstamp>
+    </comp>
+    <comp ref="LED60">
+      <value>led_BSLASH_ANSI</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623493</tstamp>
+    </comp>
+    <comp ref="LED51">
+      <value>led_LBRACKET</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623499</tstamp>
+    </comp>
+    <comp ref="LED56">
+      <value>led_RBRACKET</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5662349F</tstamp>
+    </comp>
+    <comp ref="LED13">
+      <value>led_S</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566239E5</tstamp>
+    </comp>
+    <comp ref="LED18">
+      <value>led_D</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566239EB</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>led_A</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566239F7</tstamp>
+    </comp>
+    <comp ref="LED30">
+      <value>led_H</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566239FD</tstamp>
+    </comp>
+    <comp ref="LED22">
+      <value>led_F</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A03</tstamp>
+    </comp>
+    <comp ref="LED26">
+      <value>led_G</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A09</tstamp>
+    </comp>
+    <comp ref="LED43">
+      <value>led_L</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A0F</tstamp>
+    </comp>
+    <comp ref="LED47">
+      <value>led_SEMICOLON</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A15</tstamp>
+    </comp>
+    <comp ref="LED35">
+      <value>led_J</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A1B</tstamp>
+    </comp>
+    <comp ref="LED39">
+      <value>led_K</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A21</tstamp>
+    </comp>
+    <comp ref="LED61">
+      <value>led_ENTER_ISO</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A27</tstamp>
+    </comp>
+    <comp ref="LED52">
+      <value>led_QUOTE</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A2D</tstamp>
+    </comp>
+    <comp ref="LED57">
+      <value>led_BSLASH_ISO</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A33</tstamp>
+    </comp>
+    <comp ref="LED14">
+      <value>led_Z</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A39</tstamp>
+    </comp>
+    <comp ref="LED19">
+      <value>led_X</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A3F</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>led_LSHIFT_ISO</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A45</tstamp>
+    </comp>
+    <comp ref="LED9">
+      <value>led_NU_BSLASH_ISO</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A4B</tstamp>
+    </comp>
+    <comp ref="LED31">
+      <value>led_B</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A51</tstamp>
+    </comp>
+    <comp ref="LED23">
+      <value>led_C</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A57</tstamp>
+    </comp>
+    <comp ref="LED27">
+      <value>led_V</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A5D</tstamp>
+    </comp>
+    <comp ref="LED44">
+      <value>led_COMMA</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A63</tstamp>
+    </comp>
+    <comp ref="LED48">
+      <value>led_DOT</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A69</tstamp>
+    </comp>
+    <comp ref="LED36">
+      <value>led_N</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A6F</tstamp>
+    </comp>
+    <comp ref="LED40">
+      <value>led_M</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A75</tstamp>
+    </comp>
+    <comp ref="LED63">
+      <value>led_RSHIFT</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A7B</tstamp>
+    </comp>
+    <comp ref="LED53">
+      <value>led_SLASH</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623A81</tstamp>
+    </comp>
+    <comp ref="LED15">
+      <value>led_LALT</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623BDD</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>led_LCTRL</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623BE9</tstamp>
+    </comp>
+    <comp ref="LED10">
+      <value>led_LGUI</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623BEF</tstamp>
+    </comp>
+    <comp ref="LED32">
+      <value>led_SPACE</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623BF5</tstamp>
+    </comp>
+    <comp ref="LED49">
+      <value>led_RALT</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623C0D</tstamp>
+    </comp>
+    <comp ref="LED64">
+      <value>led_RCTRL</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623C1F</tstamp>
+    </comp>
+    <comp ref="LED54">
+      <value>led_RGUI</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623C25</tstamp>
+    </comp>
+    <comp ref="LED58">
+      <value>led_RMENU</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56623C2B</tstamp>
+    </comp>
+    <comp ref="LED62">
+      <value>led_ENTER_ANSI</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56625111</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>led_LSHIFT_ANSI</value>
+      <footprint>TCKB:CHERRY_MX_LED</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56627736</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566384D3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663BEF2</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663BFAA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663BFB0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>180r</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663C054</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDN359BN</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="FDN359BN"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663D26A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDN359BN</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="FDN359BN"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663F34A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FDN359BN</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="FDN359BN"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5664099B</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>FDN359BN</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="FDN359BN"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566409A1</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>FDN359BN</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="FDN359BN"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56640A62</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566454B7</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56646B5B</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56646F1E</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56646F38</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566476FC</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56647716</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56647730</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5664774A</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566486CB</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566486E5</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>566486FF</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56648719</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>56649242</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5664925C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668C6CA</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668CE15</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668CE28</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668D92C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668D93F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668D952</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668D965</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668E163</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668EC4A</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668EC5D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668EC70</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668EC83</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>TCKB:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5668EF54</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS84P</value>
+      <footprint>TCKB:SOT-23-3</footprint>
+      <libsource lib="TCKB" part="BSS84P"/>
+      <sheetpath names="/Led_Controller/Led_Matrix/" tstamps="/56632A89/5663F00B/"/>
+      <tstamp>5663D1A1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="Cherry_Stab">
+      <fields>
+        <field name="Reference">ST</field>
+        <field name="Value">Cherry_Stab</field>
+      </fields>
+    </libpart>
+    <libpart lib="TCKB" part="BSS84P">
+      <description>BSS84P P-Channel MOSFET</description>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS84P</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="Mini_USB">
+      <description>micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Mini_USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="DIP4P">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DIP4P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="MX">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="ADP162AUJZ-3.3">
+      <description>150 mA Ultralow Quiescent Current, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/ADP160_161_162_163.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP162AUJZ-3.3</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="STM32L053C8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L053C8</field>
+        <field name="Footprint">LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VLCD" type="power_in"/>
+        <pin num="2" name="PC13/RTC_TAMP1/RTC_TS/RTC_OUT/WKUP2" type="BiDi"/>
+        <pin num="3" name="PC14/OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15/OSC32_OUT" type="BiDi"/>
+        <pin num="5" name="PH0/OSC_IN" type="BiDi"/>
+        <pin num="6" name="PH1/OSC_OUT" type="BiDi"/>
+        <pin num="7" name="~NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="RTC_TAMP2/WKUP/USART2_CTS/ADC_IN0/TIM2_CH1_ETR/PA0" type="BiDi"/>
+        <pin num="11" name="USART2_RTS/ADC_IN1/TIM2_CH2/PA1" type="BiDi"/>
+        <pin num="12" name="USART2_TX/ADC_IN2/TIM2_CH3/PA2" type="BiDi"/>
+        <pin num="13" name="USART2_RX/ADC_IN3/TIM2_CH4/PA3" type="BiDi"/>
+        <pin num="14" name="SPI1_NSS/USART2_CK/ADC_IN4/DAC_OUT/PA4" type="BiDi"/>
+        <pin num="15" name="SPI1_SCK/ADC_IN5/PA5" type="BiDi"/>
+        <pin num="16" name="SPI1_MISO/ADC_IN6/TIM22_CH1/PA6" type="BiDi"/>
+        <pin num="17" name="SPI1_MOSI/ADC_IN7/TIM22_CH2/PA7" type="BiDi"/>
+        <pin num="18" name="PB0/ADC_IN8" type="BiDi"/>
+        <pin num="19" name="PB1/ADC_IN9" type="BiDi"/>
+        <pin num="20" name="PB2/BOOT1" type="BiDi"/>
+        <pin num="21" name="PB10/I2C2_SCL/LPUART1_TX/SPI2_SCK/TIM2_CH3" type="BiDi"/>
+        <pin num="22" name="PB11/I2C2_SDA/LPUART1_RX/TIM2_CH4" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12/SPI2_NSS/I2C2_SMBA" type="BiDi"/>
+        <pin num="26" name="PB13/SPI2_SCK/TIM21_CH1" type="BiDi"/>
+        <pin num="27" name="PB14/SPI2_MISO/TIM21_CH2" type="BiDi"/>
+        <pin num="28" name="PB15/SPI2_MOSI" type="BiDi"/>
+        <pin num="29" name="USB_CRS_SYNC/TIM1_CH1/MCO/PA8" type="BiDi"/>
+        <pin num="30" name="USART1_TX/PA9" type="BiDi"/>
+        <pin num="31" name="USART1_RX/PA10" type="BiDi"/>
+        <pin num="32" name="USBDM/TIM1_CH4/PA11" type="BiDi"/>
+        <pin num="33" name="USBDP/TIM1_ETR/PA12" type="BiDi"/>
+        <pin num="34" name="SWDIO/USB_OE/PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD_USB" type="power_in"/>
+        <pin num="37" name="SWCLK/USART2_TX/PA14" type="BiDi"/>
+        <pin num="38" name="USART2_RX/PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5/SPI1_MISO" type="BiDi"/>
+        <pin num="42" name="PB6/SPI1_MOSI" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="STRIP_3P">
+      <fields>
+        <field name="Reference">STRIP</field>
+        <field name="Value">STRIP_3P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="STRIP_6P">
+      <fields>
+        <field name="Reference">STRIP</field>
+        <field name="Value">STRIP_6P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCKB" part="FDN359BN">
+      <description>FDN359BN N-Channel MOSFET</description>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDN359BN</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="TCKB">
+      <uri>C:\Users\Cedric\__Projets_Kicad\TCKB\TCKB.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="2" name="GNDPWR">
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="STRIP1" pin="3"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="9"/>
+      <node ref="R1" pin="2"/>
+      <node ref="STRIP2" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="35"/>
+      <node ref="U4" pin="23"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="STRIP3" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="STRIP4" pin="3"/>
+      <node ref="U4" pin="47"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="35"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="CAPSLOCK">
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="5" name="SWO">
+      <node ref="U1" pin="39"/>
+      <node ref="STRIP2" pin="6"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="12" name="LIGHT_MOSI">
+      <node ref="U1" pin="17"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad46)">
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad45)">
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="17" name="LIGHT_SCK">
+      <node ref="U4" pin="15"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="18" name="+5V">
+      <node ref="R21" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="Q17" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="SW1" pin="6"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="SW1" pin="7"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="Q19" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="33"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="32"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(P1-Pad3)">
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="23" name="NRST">
+      <node ref="U1" pin="7"/>
+      <node ref="STRIP2" pin="5"/>
+      <node ref="STRIP4" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="24" name="+3V3">
+      <node ref="U1" pin="36"/>
+      <node ref="U1" pin="48"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="STRIP2" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="25" name="LIGHT_MISO">
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="26" name="BOOT0">
+      <node ref="U4" pin="44"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="U1" pin="44"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="27" name="LIGHT_CS">
+      <node ref="U1" pin="14"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="28" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="30" name="USART_RX">
+      <node ref="STRIP1" pin="2"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="31" name="USART_TX">
+      <node ref="U1" pin="30"/>
+      <node ref="STRIP1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="33" name="SWCLK">
+      <node ref="STRIP2" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="34" name="SWDIO">
+      <node ref="STRIP2" pin="4"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="35" name="Line_4_">
+      <node ref="SW52" pin="2"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="SW50" pin="2"/>
+      <node ref="SW54" pin="2"/>
+      <node ref="SW53" pin="2"/>
+      <node ref="SW58" pin="2"/>
+      <node ref="SW57" pin="2"/>
+      <node ref="SW46" pin="2"/>
+      <node ref="SW48" pin="2"/>
+      <node ref="SW59" pin="2"/>
+      <node ref="SW55" pin="2"/>
+      <node ref="SW56" pin="2"/>
+      <node ref="SW51" pin="2"/>
+      <node ref="SW49" pin="2"/>
+    </net>
+    <net code="36" name="Line_5_">
+      <node ref="SW60" pin="2"/>
+      <node ref="SW61" pin="2"/>
+      <node ref="SW65" pin="2"/>
+      <node ref="SW66" pin="2"/>
+      <node ref="SW62" pin="2"/>
+      <node ref="SW67" pin="2"/>
+      <node ref="SW63" pin="2"/>
+      <node ref="SW64" pin="2"/>
+    </net>
+    <net code="37" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="55" name="Col_6_">
+      <node ref="D8" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D36" pin="1"/>
+    </net>
+    <net code="56" name="Line_2_">
+      <node ref="SW20" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW22" pin="2"/>
+      <node ref="SW28" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW27" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW30" pin="2"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="57" name="Line_1_">
+      <node ref="SW4" pin="2"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="58" name="Col_11_">
+      <node ref="D62" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="59" name="Col_10_">
+      <node ref="D12" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="60" name="Col_9_">
+      <node ref="D52" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="61" name="Col_8_">
+      <node ref="D24" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="62" name="Col_7_">
+      <node ref="D37" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="63" name="Col_5_">
+      <node ref="D48" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="64" name="Col_4_">
+      <node ref="D47" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="65" name="Col_3_">
+      <node ref="D5" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="66" name="Col_2_">
+      <node ref="D4" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="67" name="Col_1_">
+      <node ref="D58" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="68" name="Col_14_">
+      <node ref="D65" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D44" pin="1"/>
+    </net>
+    <net code="69" name="Col_13_">
+      <node ref="D29" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="70" name="Col_12_">
+      <node ref="D14" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="71" name="Line_3_">
+      <node ref="SW44" pin="2"/>
+      <node ref="SW41" pin="2"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW38" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW43" pin="2"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="SW42" pin="2"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW31" pin="2"/>
+      <node ref="SW35" pin="2"/>
+      <node ref="SW39" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="SW33" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2"/>
+      <node ref="SW52" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D29-Pad2)">
+      <node ref="SW29" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D28-Pad2)">
+      <node ref="SW28" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="SW27" pin="1"/>
+    </net>
+    <net code="77" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+      <node ref="SW55" pin="1"/>
+    </net>
+    <net code="78" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D13-Pad2)">
+      <node ref="SW13" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D6-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D20-Pad2)">
+      <node ref="SW20" pin="1"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW34" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2"/>
+      <node ref="SW49" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="SW7" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D21-Pad2)">
+      <node ref="SW21" pin="1"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+      <node ref="SW48" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="SW62" pin="1"/>
+    </net>
+    <net code="88" name="Net-(D23-Pad2)">
+      <node ref="SW23" pin="1"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D36-Pad2)">
+      <node ref="SW36" pin="1"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D49-Pad2)">
+      <node ref="SW51" pin="1"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D37-Pad2)">
+      <node ref="SW37" pin="1"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="SW50" pin="1"/>
+    </net>
+    <net code="95" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D31-Pad2)">
+      <node ref="SW31" pin="1"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D57-Pad2)">
+      <node ref="SW59" pin="1"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="D57" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D58-Pad2)">
+      <node ref="SW60" pin="1"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D4-Pad2)">
+      <node ref="SW4" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="SW19" pin="1"/>
+    </net>
+    <net code="105" name="Net-(D18-Pad2)">
+      <node ref="SW18" pin="1"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D32-Pad2)">
+      <node ref="SW32" pin="1"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="SW47" pin="1"/>
+    </net>
+    <net code="108" name="Net-(D59-Pad2)">
+      <node ref="SW61" pin="1"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D43-Pad2)">
+      <node ref="SW43" pin="1"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2"/>
+      <node ref="SW66" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D30-Pad2)">
+      <node ref="SW30" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D42-Pad2)">
+      <node ref="SW42" pin="1"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2"/>
+      <node ref="SW57" pin="1"/>
+    </net>
+    <net code="115" name="Net-(D63-Pad2)">
+      <node ref="SW65" pin="1"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D15-Pad2)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="117" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW44" pin="1"/>
+    </net>
+    <net code="118" name="Net-(D56-Pad2)">
+      <node ref="SW58" pin="1"/>
+      <node ref="D56" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D65-Pad2)">
+      <node ref="SW67" pin="1"/>
+      <node ref="D65" pin="2"/>
+    </net>
+    <net code="120" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="SW39" pin="1"/>
+    </net>
+    <net code="121" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="SW53" pin="1"/>
+    </net>
+    <net code="122" name="Net-(D11-Pad2)">
+      <node ref="SW11" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D25-Pad2)">
+      <node ref="SW25" pin="1"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="SW54" pin="1"/>
+    </net>
+    <net code="125" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="SW63" pin="1"/>
+    </net>
+    <net code="126" name="Net-(D10-Pad2)">
+      <node ref="SW10" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D24-Pad2)">
+      <node ref="SW24" pin="1"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="SW38" pin="1"/>
+    </net>
+    <net code="129" name="Net-(D41-Pad2)">
+      <node ref="SW41" pin="1"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="130" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="SW56" pin="1"/>
+    </net>
+    <net code="131" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="SW64" pin="1"/>
+    </net>
+    <net code="132" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="SW14" pin="1"/>
+    </net>
+    <net code="133" name="Net-(D26-Pad2)">
+      <node ref="SW26" pin="1"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D40-Pad2)">
+      <node ref="SW40" pin="1"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="135" name="+3V3_AUX">
+      <node ref="U4" pin="9"/>
+      <node ref="STRIP4" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="36"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U4" pin="48"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="136" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="137" name="LED_LINE_1">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="138" name="LED_LINE_2">
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="139" name="LED_LINE_3">
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="140" name="LED_LINE_4">
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="141" name="LED_LINE_5">
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="142" name="LED_COL_6">
+      <node ref="Q11" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="143" name="USART_RX_2">
+      <node ref="STRIP3" pin="2"/>
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="144" name="USART_TX_2">
+      <node ref="STRIP3" pin="1"/>
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="145" name="LED_COL_7">
+      <node ref="Q12" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="146" name="LED_COL_8">
+      <node ref="Q13" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="147" name="LED_COL_9">
+      <node ref="R23" pin="1"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+    <net code="148" name="LED_COL_10">
+      <node ref="R25" pin="1"/>
+      <node ref="Q15" pin="1"/>
+    </net>
+    <net code="149" name="LED_COL_11">
+      <node ref="Q16" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="150" name="LED_COL_12">
+      <node ref="Q17" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="151" name="LED_COL_13">
+      <node ref="Q18" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="152" name="LED_COL_14">
+      <node ref="R33" pin="1"/>
+      <node ref="Q19" pin="1"/>
+    </net>
+    <net code="153" name="LED_COL_5">
+      <node ref="Q10" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="154" name="LED_COL_1">
+      <node ref="Q6" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="155" name="LED_COL_2">
+      <node ref="Q7" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="156" name="LED_COL_3">
+      <node ref="Q8" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="157" name="LED_COL_4">
+      <node ref="R13" pin="1"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="158" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="159" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="160" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="161" name="SWCLK_2">
+      <node ref="STRIP4" pin="2"/>
+      <node ref="U4" pin="37"/>
+    </net>
+    <net code="162" name="SWDIO_2">
+      <node ref="STRIP4" pin="4"/>
+      <node ref="U4" pin="34"/>
+    </net>
+    <net code="163" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="164" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="165" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="166" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="167" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="168" name="Net-(U4-Pad40)">
+      <node ref="U4" pin="40"/>
+    </net>
+    <net code="169" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="170" name="Net-(U4-Pad21)">
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="171" name="Net-(U4-Pad41)">
+      <node ref="U4" pin="41"/>
+    </net>
+    <net code="172" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="173" name="SWO_2">
+      <node ref="STRIP4" pin="6"/>
+      <node ref="U4" pin="39"/>
+    </net>
+    <net code="174" name="Net-(U4-Pad32)">
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="175" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="176" name="Net-(U4-Pad42)">
+      <node ref="U4" pin="42"/>
+    </net>
+    <net code="177" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="178" name="Net-(U4-Pad33)">
+      <node ref="U4" pin="33"/>
+    </net>
+    <net code="179" name="Net-(U4-Pad43)">
+      <node ref="U4" pin="43"/>
+    </net>
+    <net code="180" name="Net-(U4-Pad25)">
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="181" name="Net-(U4-Pad45)">
+      <node ref="U4" pin="45"/>
+    </net>
+    <net code="182" name="Net-(U4-Pad26)">
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="183" name="Net-(U4-Pad29)">
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="184" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="185" name="Net-(U4-Pad38)">
+      <node ref="U4" pin="38"/>
+    </net>
+    <net code="186" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="187" name="Net-(U4-Pad27)">
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="188" name="Net-(U4-Pad46)">
+      <node ref="U4" pin="46"/>
+    </net>
+    <net code="189" name="Net-(U4-Pad28)">
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="190" name="Net-(LED10-Pad1)">
+      <node ref="LED58" pin="1"/>
+      <node ref="LED64" pin="1"/>
+      <node ref="LED49" pin="1"/>
+      <node ref="LED32" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="LED10" pin="1"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="LED15" pin="1"/>
+      <node ref="LED54" pin="1"/>
+    </net>
+    <net code="191" name="Net-(LED12-Pad1)">
+      <node ref="LED12" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="LED29" pin="1"/>
+      <node ref="LED21" pin="1"/>
+      <node ref="LED25" pin="1"/>
+      <node ref="LED17" pin="1"/>
+      <node ref="LED51" pin="1"/>
+      <node ref="LED42" pin="1"/>
+      <node ref="LED56" pin="1"/>
+      <node ref="LED60" pin="1"/>
+      <node ref="LED38" pin="1"/>
+      <node ref="LED34" pin="1"/>
+      <node ref="LED46" pin="1"/>
+    </net>
+    <net code="192" name="Net-(LED1-Pad1)">
+      <node ref="LED20" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="LED55" pin="1"/>
+      <node ref="LED50" pin="1"/>
+      <node ref="LED37" pin="1"/>
+      <node ref="LED33" pin="1"/>
+      <node ref="LED45" pin="1"/>
+      <node ref="LED41" pin="1"/>
+      <node ref="LED24" pin="1"/>
+      <node ref="LED28" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="LED16" pin="1"/>
+      <node ref="LED11" pin="1"/>
+      <node ref="LED59" pin="1"/>
+    </net>
+    <net code="193" name="Net-(Q1-Pad3)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="194" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="195" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="196" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="197" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="198" name="Net-(LED14-Pad1)">
+      <node ref="LED53" pin="1"/>
+      <node ref="LED36" pin="1"/>
+      <node ref="LED40" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="LED14" pin="1"/>
+      <node ref="LED63" pin="1"/>
+      <node ref="LED27" pin="1"/>
+      <node ref="LED48" pin="1"/>
+      <node ref="LED44" pin="1"/>
+      <node ref="LED23" pin="1"/>
+      <node ref="LED31" pin="1"/>
+      <node ref="LED9" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED19" pin="1"/>
+    </net>
+    <net code="199" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="200" name="Net-(LED13-Pad1)">
+      <node ref="LED39" pin="1"/>
+      <node ref="LED62" pin="1"/>
+      <node ref="LED22" pin="1"/>
+      <node ref="LED26" pin="1"/>
+      <node ref="LED43" pin="1"/>
+      <node ref="LED47" pin="1"/>
+      <node ref="LED35" pin="1"/>
+      <node ref="LED30" pin="1"/>
+      <node ref="LED61" pin="1"/>
+      <node ref="LED52" pin="1"/>
+      <node ref="LED57" pin="1"/>
+      <node ref="LED8" pin="1"/>
+      <node ref="LED18" pin="1"/>
+      <node ref="LED13" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="201" name="Net-(LED20-Pad2)">
+      <node ref="LED23" pin="2"/>
+      <node ref="LED20" pin="2"/>
+      <node ref="LED21" pin="2"/>
+      <node ref="LED22" pin="2"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="202" name="Net-(LED24-Pad2)">
+      <node ref="Q11" pin="3"/>
+      <node ref="LED24" pin="2"/>
+      <node ref="LED27" pin="2"/>
+      <node ref="LED25" pin="2"/>
+      <node ref="LED26" pin="2"/>
+    </net>
+    <net code="203" name="Net-(LED28-Pad2)">
+      <node ref="LED30" pin="2"/>
+      <node ref="LED29" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="LED28" pin="2"/>
+      <node ref="LED32" pin="2"/>
+      <node ref="LED31" pin="2"/>
+    </net>
+    <net code="204" name="Net-(LED33-Pad2)">
+      <node ref="Q13" pin="3"/>
+      <node ref="LED36" pin="2"/>
+      <node ref="LED34" pin="2"/>
+      <node ref="LED35" pin="2"/>
+      <node ref="LED33" pin="2"/>
+    </net>
+    <net code="205" name="Net-(LED11-Pad2)">
+      <node ref="Q8" pin="3"/>
+      <node ref="LED13" pin="2"/>
+      <node ref="LED12" pin="2"/>
+      <node ref="LED15" pin="2"/>
+      <node ref="LED11" pin="2"/>
+      <node ref="LED14" pin="2"/>
+    </net>
+    <net code="206" name="Net-(LED10-Pad2)">
+      <node ref="LED10" pin="2"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="LED6" pin="2"/>
+      <node ref="LED9" pin="2"/>
+    </net>
+    <net code="207" name="Net-(LED16-Pad2)">
+      <node ref="LED16" pin="2"/>
+      <node ref="LED17" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="LED18" pin="2"/>
+      <node ref="LED19" pin="2"/>
+    </net>
+    <net code="208" name="Net-(LED50-Pad2)">
+      <node ref="LED54" pin="2"/>
+      <node ref="LED52" pin="2"/>
+      <node ref="LED53" pin="2"/>
+      <node ref="LED50" pin="2"/>
+      <node ref="LED51" pin="2"/>
+      <node ref="Q17" pin="3"/>
+    </net>
+    <net code="209" name="Net-(LED55-Pad2)">
+      <node ref="LED58" pin="2"/>
+      <node ref="LED55" pin="2"/>
+      <node ref="LED56" pin="2"/>
+      <node ref="LED57" pin="2"/>
+      <node ref="Q18" pin="3"/>
+    </net>
+    <net code="210" name="Net-(LED59-Pad2)">
+      <node ref="LED62" pin="2"/>
+      <node ref="LED59" pin="2"/>
+      <node ref="LED60" pin="2"/>
+      <node ref="LED64" pin="2"/>
+      <node ref="Q19" pin="3"/>
+      <node ref="LED61" pin="2"/>
+      <node ref="LED63" pin="2"/>
+    </net>
+    <net code="211" name="Net-(LED41-Pad2)">
+      <node ref="Q15" pin="3"/>
+      <node ref="LED41" pin="2"/>
+      <node ref="LED44" pin="2"/>
+      <node ref="LED43" pin="2"/>
+      <node ref="LED42" pin="2"/>
+    </net>
+    <net code="212" name="Net-(LED37-Pad2)">
+      <node ref="LED38" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="LED40" pin="2"/>
+      <node ref="LED37" pin="2"/>
+      <node ref="LED39" pin="2"/>
+    </net>
+    <net code="213" name="Net-(LED45-Pad2)">
+      <node ref="LED46" pin="2"/>
+      <node ref="LED49" pin="2"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="LED48" pin="2"/>
+      <node ref="LED45" pin="2"/>
+      <node ref="LED47" pin="2"/>
+    </net>
+  </nets>
+</export>
